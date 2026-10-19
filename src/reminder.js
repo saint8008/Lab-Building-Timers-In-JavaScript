@@ -23,7 +23,7 @@ function delayedReminder(message, delay) {
     setTimeout(() => {
       resolve();
     }, delay);
-  });
+  }); 
 }
 
 module.exports = { delayedReminder };
